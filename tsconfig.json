@@ -1,12 +1,10 @@
 {
-  "compilerOptions": {
-    "outDir": "./dist",
-    "target": "ES5",
-    "noImplicitAny": false,
-    "sourceMap": true,
-    "declaration": true
-  },
-  "include": [
-    "./src/**/*.ts"
-  ]
+	"compilerOptions": {
+		"outDir": "./dist",
+		"target": "ES5",
+		"noImplicitAny": false,
+		"sourceMap": true,
+		"declaration": true
+	},
+	"include": ["./src/**/*.ts"]
 }
