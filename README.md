@@ -1,10 +1,9 @@
-# react-media-hook
+# preact-media-hook
 
-[![CircleCI](https://circleci.com/gh/lessmess-dev/react-media-hook.svg?style=shield)](https://circleci.com/gh/lessmess-dev/react-media-hook)
-[![npm version](https://img.shields.io/npm/v/react-media-hook.svg)](https://www.npmjs.com/package/react-media-hook)
-[![npm downloads](https://img.shields.io/npm/dt/react-media-hook.svg)](https://www.npmjs.com/package/react-media-hook)
+[![npm version](https://img.shields.io/npm/v/preact-media-hook.svg)](https://www.npmjs.com/package/preact-media-hook)
+[![npm downloads](https://img.shields.io/npm/dt/preact-media-hook.svg)](https://www.npmjs.com/package/preact-media-hook)
 
-React Hook for Media Queries. 
+Preact Hook for Media Queries. 
 Uses [matchMedia](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia) API.
 
 ## Installation
@@ -12,13 +11,13 @@ Uses [matchMedia](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchM
 Install it with yarn:
 
 ```
-yarn add react-media-hook
+yarn add preact-media-hook
 ```
 
 Or with npm:
 
 ```
-npm i react-media-hook --save
+npm i preact-media-hook --save
 ```
 
 ## Usage
@@ -26,8 +25,8 @@ npm i react-media-hook --save
 Pass query to *useMediaPredicate*:
 
 ```javascript
-import React from "react";
-import { useMediaPredicate } from "react-media-hook";
+import { Component } from "preact";
+import { useMediaPredicate } from "preact-media-hook";
 
 const Component = () => {
     const biggerThan400 = useMediaPredicate("(min-width: 400px)");
@@ -53,10 +52,3 @@ where *mathMedia* is not defined), or object, simular to *mathMedia(...)* result
 
 #### `useMediaPredicate(query: string)`
 Returns just *true* or *false*.
-
-## Sponsored
-<a href="https://lessmess.agency/?utm_source=react-media-hook">
-  <img src="https://lessmess.agency/badges/sponsored_by_lessmess.svg"
-       alt="Sponsored by Lessmess" width="236" height="54">
-</a>
-
