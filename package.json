@@ -1,6 +1,6 @@
 {
 	"name": "preact-media-hook",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"description": "Preact hook for media query",
