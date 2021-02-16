@@ -1,25 +1,12 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "jsx": "react",
-    "lib": [
-      "dom",
-      "es2018"
-    ],
-    "module": "esnext",
-    "moduleResolution": "node",
+    "outDir": "./dist",
+    "target": "ES5",
     "noImplicitAny": false,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "strict": true,
-    "strictFunctionTypes": false,
-    "stripInternal": true
+    "sourceMap": true,
+    "declaration": true
   },
   "include": [
-    "**/*.d.ts"
-  ],
-  "exclude": [
-    "node_modules"
+    "./src/**/*.ts"
   ]
 }
